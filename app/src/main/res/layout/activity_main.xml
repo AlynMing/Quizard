@@ -13,7 +13,9 @@
         android:layout_height="200dp"
         android:gravity="center"
         android:text="What is the Capitol of the United States?"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:background="#141f4a"
+        android:textColor="#ffffff"/>
 
     <TextView
         android:id="@+id/flashcard_one_answer_one"
@@ -22,7 +24,19 @@
         android:gravity="center"
         android:text="Washington, D.C."
         android:textSize="40sp"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:background="#b53131"
+        android:textColor="#141f4a"/>
+
+    <ImageView
+        android:id="@+id/add_card"
+        android:layout_width="113dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_plus_sign" />
 
 
 </RelativeLayout>
