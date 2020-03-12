@@ -8,7 +8,7 @@ Functionality has now been added to allow for the saving of flashcards, creation
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/HEF8TJGTrL.gif" width=200><br>
+<img src="http://g.recordit.co/JNFfUukAqr.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
