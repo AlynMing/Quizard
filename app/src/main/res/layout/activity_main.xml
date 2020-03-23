@@ -4,29 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    android:background="#A2A5A5"
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="#253746"
         android:gravity="center"
-        android:text="What is the Capitol of the United States?"
+        android:text="Add a card to get started!"
+        android:textColor="#ededed"
         android:textSize="40sp"
-        android:background="#00294f"
-        android:textColor="#6e7c7d"/>
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp" />
 
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:gravity="center"
-        android:text="Washington, D.C."
-        android:textSize="40sp"
-        android:visibility="invisible"
         android:background="#6e7c7d"
-        android:textColor="#00294f"/>
+        android:backgroundTint="#ededed"
+        android:gravity="center"
+        android:text="This can be done by pressing the 'plus' icon in the bottom right corner."
+        android:textColor="#253746"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="30sp" />
 
     <ImageView
         android:id="@+id/add_card"
@@ -34,18 +41,58 @@
         android:layout_height="97dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="33dp"
         android:src="@drawable/ic_plus_sign" />
 
     <ImageView
+        android:id="@+id/delete_card"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="true"
+        android:hapticFeedbackEnabled="false"
+        app:srcCompat="@drawable/ic_delete_button" />
+
+    <ImageView
+        android:id="@+id/random_card"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@id/delete_card"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="-126dp"
+        android:layout_marginTop="256dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="true"
+        android:hapticFeedbackEnabled="false"
+        app:srcCompat="@drawable/ic_shuffle_button" />
+
+    <ImageView
         android:id="@+id/next_card"
-        android:layout_width="95dp"
-        android:layout_height="74dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@id/delete_card"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="211dp"
-        android:layout_marginEnd="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="-126dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="true"
+        android:hapticFeedbackEnabled="false"
         app:srcCompat="@drawable/ic_next_button" />
 
 
