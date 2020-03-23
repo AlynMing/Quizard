@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#959F9F"
+    android:background="#A2A5A5"
     tools:context=".AddCardActivity">
 
     <ImageView
