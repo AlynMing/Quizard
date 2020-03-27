@@ -7,7 +7,7 @@ This app presents a user with a question, and allows them to tap the question to
 In this version, styling and animations have been added to the app to make it more visually appealing.
 
 ### App Walk-though
-<img src="http://g.recordit.co/PoQlfTnzfa.gif" width=200><br>
+<img src="http://recordit.co/t9snOUeXaj" width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
@@ -15,9 +15,9 @@ In this version, styling and animations have been added to the app to make it mo
 - [x] User sees flashcards animating in / out when the 'next' button is tapped
 
 ## Optional
-- [ ] Extra styling is added!
+- [x] Extra styling is added!
 - [ ] User sees a countdown timer for each question
-- [ ] User sees a 'card flip' animation when the card is tapped
+- [x] User sees a 'card flip' animation when the card is tapped
 - [ ] User sees a celebration animation with confetti when they answer a question correctly
 
 ## Lab 3
