@@ -7,7 +7,7 @@ This app presents a user with a question, and allows them to tap the question to
 In this version, styling and animations have been added to the app to make it more visually appealing.
 
 ### App Walk-though
-<img src="http://recordit.co/t9snOUeXaj" width=200><br>
+<img src="http://g.recordit.co/t9snOUeXaj.gif" width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
